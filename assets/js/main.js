@@ -69,60 +69,90 @@
 // Document.getElementById("paragraph").style.hover.color= "red"
 
 
-//.bg gold , 
+// //.bg gold , 
 
-//classList.add('')
-function goGold() {
-    console.log("text") //test 
-    document.getElementById("mySection").classList.add("bg") // adding class
-    console.log(document.getElementById("paragraph1").classList) // list of classes
-}
-//classList.remove('')
-function removeGold() {
-    document.getElementById("mySection").classList.remove('bg')
-    console.log(document.getElementById("paragraph1").classList)
-}
+// //classList.add('')
+// function goGold() {
+//     console.log("text") //test 
+//     document.getElementById("mySection").classList.add("bg") // adding class
+//     console.log(document.getElementById("paragraph1").classList) // list of classes
+// }
+// //classList.remove('')
+// function removeGold() {
+//     document.getElementById("mySection").classList.remove('bg')
+//     console.log(document.getElementById("paragraph1").classList)
+// }
 
-//classList.toggle
-function switchGold() {
-    console.log("toggle button is working");
-    document.getElementById('mySection').classList.toggle("bg")
+// //classList.toggle
+// function switchGold() {
+//     console.log("toggle button is working");
+//     document.getElementById('mySection').classList.toggle("bg")
 
-}
-
-
-var i = 1;     
-console.log(typeof(i))    
-var lastName = "Johnson";
-
-console.log(typeof(lastName))
-
-// achte die untenstehenden Sonderzeichen:
+// }
 
 
-var lastName = "Johnson"; 
-var x = {
-  firstName: "John",
-  lastName: "Doe"
-}; 
-console.log(typeof(x)) 
+// var i = 1;     
+// console.log(typeof(i))    
+// var lastName = "Johnson";
+
+// console.log(typeof(lastName))
+
+// // achte die untenstehenden Sonderzeichen:
 
 
+// var lastName = "Johnson"; 
+// var x = {
+//   firstName: "John",
+//   lastName: "Doe"
+// }; 
+// console.log(typeof(x)) 
 
 
 
-var j = "2";
-console.log(typeof(j)) 
 
-var status=true;
 
-console.log(typeof(status)) 
+// var j = "2";
+// console.log(typeof(j)) 
 
-var hello=hello;
+// var status=true;
 
-console.log(typeof(hello)) 
+// console.log(typeof(status)) 
 
-var helloWorld = "hello";
+// var hello=hello;
 
-console.log(typeof(helloWorld)) 
+// console.log(typeof(hello)) 
 
+// var helloWorld = "hello";
+
+// console.log(typeof(helloWorld)) 
+//Lev1_14_js-einführung_boolean_comparisons
+
+
+let x =100
+console.log(Boolean(100))
+
+x =3.14
+
+console.log(Boolean(3.14))
+
+
+y = -15
+console.log(Boolean(-15))
+v = "hello"
+console.log(Boolean("hello"))
+o = "false"
+console.log(Boolean("false"))
+m = 1 + 7 + 3.14
+console.log(Boolean(m))
+e = 0
+console.log(Boolean(0))
+q = -0
+console.log(Boolean(-0))
+b = NaN 
+console.log(Boolean(b))
+j = null
+console.log(Boolean(j))
+w = false
+console.log(Boolean(w))
+p = Nan
+console.log(Boolean(performance))
